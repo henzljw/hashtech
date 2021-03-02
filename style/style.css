@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cairo', sans-serif;
+}
+/*header*/
+.header {
+    overflow: hidden;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    padding-left: 100px;
+    margin-right: -10px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.header a:hover {
+    background-color: none;
+    color: green;
+}
+.header a:active {
+    background-color: none;
+    color: white;
+}
+.header-right {
+    float: right;
+}
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}
+.search {
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*footer*/
+.footer {
+    overflow: hidden;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    margin-top: 50px;
+}
+.copyright {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}
+/*user register*/
+body {
+    font-size: 120%;
+}
+
+.background-img {
+    position: fixed;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+form {
+    margin-top: -5px;
+}
+
+.input-group {
+    margin: 5px 0px 10px 0px;
+    padding: 10px;
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 500px;
+    margin-left: 700px;
+    margin-top: 10px;
+    padding: 20px 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+button {
+    padding: 10px 176px;
+    margin-left: 740px;
+    font-size: 15px;
+    color: black;
+    background: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: center;
+}
+button[type=reset] {
+    padding: 10px 176px;
+    margin-left: 748px;
+    margin-top: -15px;
+    font-size: 15px;
+    color: black;
+    background: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+.error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+}
+.success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+/*user_login*/
+.login {
+    margin: 20px;
+}
+.btn-login {
+    margin-left: 5px;
+}
+
+/*admin_login*/
+.admin-login {
+    margin-bottom: 50px;
+}
+
+/*gadget_details*/
+.gadget {
+    border: none;
+}
