@@ -8,6 +8,8 @@ hashtech is an online shoppiing platform which is selling gadgets such as laptop
 
 ## Setup Instructions (TBU)
 
+## Folder Structure (TBU)
+
 ## Contributions
 
 This project was contributed by a group of member who involving this projects.
