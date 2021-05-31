@@ -10,7 +10,7 @@ include "components/navbar.php";
 
 <head>
     <title>hashtech</title>
-    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
     <link rel="stylesheet" type="js" href="script/script.js">
 </head>
 
@@ -25,13 +25,13 @@ include "components/navbar.php";
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/images/carousel/zenfone8.png" alt="" height="600">
+                <img class="d-block w-100" src="assets/images/carousel/zenfone8.png" alt="" style="width: 500px; height: 700px;">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/images/carousel/rog5.png" alt="" height="600">
+                <img class="d-block w-100" src="assets/images/carousel/rog5.png" alt="" style="width: 500px; height: 700px;">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/images/carousel/pixel4a.jpg" alt="" height="600">
+                <img class="d-block w-100" src="assets/images/carousel/pixel4a.jpg" alt="" style="width: 500px; height: 700px;">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -45,6 +45,40 @@ include "components/navbar.php";
     </div>
     <!-- CAROUSELL END -->
 
+    <!-- CONTAINER -->
+    <div class="container">
+
+        <!-- TOP SELLING -->
+        <div class="center">
+            <div class="title" style="text-align: center;">
+                <h2>TOP SELLING PRODUCTS</h2>
+                <p>Explore the top trending products here.</p>
+            </div>
+        </div>
+        <!-- TOP SELLING END -->
+
+    </div>
+    <!-- CONTAINER END -->
+
+
+    <!-- NEWSLETTER -->
+    <div class="newsletter">
+        <form action="">
+            <div class="container">
+                <h2>NEWSLETTER SIGN UP</h2>
+                <p>Subscribe to know our latest update.</p>
+            </div>
+            <div class="container" style="margin-top: 50px;">
+                <div class="input-group mb-3">
+                    <input type="email-address" class="form-control" placeholder="Your email address" aria-label="Your email address" aria-describedby="basic-addon">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- NEWSLETTER END -->
 
     <!-- <div class="container" style="border: none; margin-bottom: 20px;">
         <br />
