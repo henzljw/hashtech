@@ -1,6 +1,8 @@
 <?php
 include "templates/htmlhead.php";
-include "components/navbar.php";
+include "templates/body.php";
+// include "components/navbar.php";
+
 // session_start();
 // include('header.php');
 // include('connection.php');
@@ -53,18 +55,28 @@ include "components/navbar.php";
 <body class="text-center">
     <form class="form-signin">
         <a href="index.php"><img class="mb-4" src="assets/images/website-logo/hk.png" alt="" width="72" height="72"></a>
+        <br />
         <h1 class="h3 mb-3 font-weight-normal">Login</h1>
+        <br />
         <!-- <label for="inputEmail" class="sr-only">Email address</label> -->
         <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <br />
         <!-- <label for="inputPassword" class="sr-only">Password</label> -->
         <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-        <div class="checkbox mb-3">
+        <!-- <div class="checkbox mb-3">
             <label>
                 <input type="checkbox" value="remember-me"> Remember me
             </label>
-        </div>
+        </div> -->
+        <br />
+        <a href="">Forget your Password?</a>
+        <br /><br />
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-        <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+        <br />
+        <p>Or</p>
+        <br />
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+        <!-- <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p> -->
     </form>
 </body>
 
@@ -97,6 +109,6 @@ include "components/navbar.php";
             </div>
         </form>
     </div> -->
-    <?php include('footer.php'); ?>
+    <!-- <?php include('footer.php'); ?> -->
 </body>
 </head>
