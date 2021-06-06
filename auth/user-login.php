@@ -1,7 +1,7 @@
 <?php
 
-include "templates/htmlhead.php";
-include "templates/body.php";
+include "../templates/htmlhead.php";
+include "../templates/body.php";
 // include "components/navbar.php";
 
 // session_start();
@@ -50,19 +50,19 @@ include "templates/body.php";
 
 <head>
     <title>Login | hashtech</title>
-    <link rel="stylesheet" type="text/css" href="assets/styles/user-login.css">
+    <link rel="stylesheet" type="text/css" href="../assets/styles/user-login.css">
 </head>
 
 <body class="text-center">
     <div class="container">
         <form class="form-signin">
-            <a href="index.php"><img class="mb-4" src="assets/images/website-logo/hk.png" alt="" width="72" height="72"></a>
+            <a href="../index.php"><img class="mb-4" src="../assets/images/website-logo/hk.png" alt="" width="72" height="72"></a>
             <br />
             <h1 class="h3 mb-3 font-weight-normal">Login</h1>
             <br />
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+            <input type="email" id="inputEmail" class="form-control form-control-sm" placeholder="Email address" required autofocus>
             <br />
-            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            <input type="password" id="inputPassword" class="form-control form-control-sm" placeholder="Password" required>
             <!-- <div class="checkbox mb-3">
             <label>
                 <input type="checkbox" value="remember-me"> Remember me
@@ -71,11 +71,11 @@ include "templates/body.php";
             <br />
             <a href="">Forget your Password?</a>
             <br /><br />
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
             <br />
             <h4 class="font-weight-normal">OR</h4>
             <br />
-            <a href="user_register.php" class="btn btn-lg btn-primary btn-block" role="button">Register</a>
+            <a href="user-register.php" class="btn btn-lg btn-primary btn-block" role="button">Register</a>
             <br />
             <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
         </form>

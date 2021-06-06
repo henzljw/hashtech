@@ -56,7 +56,7 @@ include "templates/body.php";
         </div>
     </nav> -->
 
-    <!-- <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
@@ -76,30 +76,10 @@ include "templates/body.php";
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="user_login.php">Login</a>
+                    <a class="nav-link" href="auth/user-login.php">Login</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Register</a>
-                </li>
-            </ul>
-        </div>
-    </nav> -->
-
-    <nav class="navbar navbar-expand-md">
-        <a class="navbar-brand" href="#">Logo</a>
-        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="main-navigation">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="auth/user-register.php">Register</a>
                 </li>
             </ul>
         </div>
