@@ -1,5 +1,6 @@
 <!-- password-reset.php -->
 <!-- Password reset for hashtech's website -->
+<!-- Engineered by heckerio -->
 
 <?php
 

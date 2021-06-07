@@ -1,5 +1,6 @@
-<!-- navbar.html -->
+<!-- navbar.php -->
 <!-- Navbar for hashtech's website -->
+<!-- Engineered by heckerio -->
 
 <?php
 

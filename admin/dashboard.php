@@ -1,5 +1,6 @@
 <!-- dashboard.php -->
 <!-- Admin Dashboard for hashtech's website -->
+<!-- Engineered by heckerio -->
 
 <?php
 

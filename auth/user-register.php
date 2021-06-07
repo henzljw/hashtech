@@ -1,5 +1,6 @@
 <!-- user-register.php -->
 <!-- User Account Registration for hashtech's website -->
+<!-- Engineered by heckerio -->
 
 <?php
 

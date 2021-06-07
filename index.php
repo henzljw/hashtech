@@ -1,6 +1,9 @@
 <!-- index.php -->
+<!-- Main Page of hashtech's website -->
+<!-- Engineered by heckerio -->
 
 <?php
+
 include "templates/htmlhead.php";
 include "components/navbar.php";
 // include('connection.php');
@@ -135,6 +138,12 @@ include "components/navbar.php";
     </div>
     <?php include 'footer.php'; ?> -->
 </body>
+
+<?php
+
+include "components/footer.php";
+
+?>
 
 </html>
 <script>
