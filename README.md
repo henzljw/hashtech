@@ -44,7 +44,7 @@ A checklist to let you know that what features inside my system and what I achie
 | 15. | Can add user comment |  | |
 | 16. | Can view user comment |  | |
 
-* I will update the checklist later
+PS: I will update the checklist later
 
 ## Website UIs (TBU)
 
