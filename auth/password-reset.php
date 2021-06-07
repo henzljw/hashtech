@@ -8,12 +8,11 @@ include "../templates/body.php";
 
 ?>
 
-
 <html>
 
 <head>
     <title>Password Reset | hashtech</title>
-    <link rel="stylesheet" type="text/css" href="../assets/styles/password-reset.css">
+    <link rel="stylesheet" type="text/css" href="../assets/styles/auth/password-reset.css">
 </head>
 
 <body class="text-center">
@@ -41,3 +40,5 @@ include "../templates/body.php";
         </form>
     </div>
 </body>
+
+</html>

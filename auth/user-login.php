@@ -53,7 +53,7 @@ include "../templates/body.php";
 
 <head>
     <title>Login | hashtech</title>
-    <link rel="stylesheet" type="text/css" href="../assets/styles/user-login.css">
+    <link rel="stylesheet" type="text/css" href="../assets/styles/auth/user-login.css">
 </head>
 
 <body class="text-center">

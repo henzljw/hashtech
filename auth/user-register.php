@@ -5,6 +5,7 @@
 
 include "../templates/htmlhead.php";
 include "../templates/body.php";
+
 // include("connection.php");
 // include('header.php');
 // session_start();
@@ -96,7 +97,7 @@ include "../templates/body.php";
 
 <head>
     <title>Register | hashtech</title>
-    <link rel="stylesheet" type="text/css" href="../assets/styles/user-register.css">
+    <link rel="stylesheet" type="text/css" href="../assets/styles/auth/user-register.css">
 </head>
 
 <body class="text-center">
@@ -205,8 +206,8 @@ include "../templates/body.php";
                 <button type="reset" name="register" class=" btn btn-block mybtn btn-primary tx-tfm">Reset</button>
             </div>
         </form>
-    </div> -->
-<!-- <?php include('footer.php'); ?> -->
-</body>
+    </div>
+<?php include('footer.php'); ?> -->
+<!-- </body> -->
 
 </html>
