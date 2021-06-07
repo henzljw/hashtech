@@ -1,3 +1,6 @@
+<!-- user-register.php -->
+<!-- User Account Registration for hashtech's website -->
+
 <?php
 
 include "../templates/htmlhead.php";
@@ -205,4 +208,5 @@ include "../templates/body.php";
     </div> -->
 <!-- <?php include('footer.php'); ?> -->
 </body>
-</head>
+
+</html>

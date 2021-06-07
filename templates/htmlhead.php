@@ -1,5 +1,5 @@
 <!-- htmlhead.php -->
-<!-- html head templates for hashtech's websites -->
+<!-- html head templates for every hashtech's webpages -->
 
 <!doctype html>
 <html lang="en">

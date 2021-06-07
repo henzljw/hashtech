@@ -1,3 +1,6 @@
+<!-- user-login.php -->
+<!-- User Account Login for hashtech's website -->
+
 <?php
 
 include "../templates/htmlhead.php";
@@ -69,7 +72,7 @@ include "../templates/body.php";
             </label>
             </div> -->
             <br />
-            <a href="">Forget your Password?</a>
+            <a href="password-reset.php">Forget your Password?</a>
             <br /><br />
             <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
             <br />
