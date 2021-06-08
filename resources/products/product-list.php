@@ -4,9 +4,9 @@
 
 <?php
 
-include "../templates/htmlhead.php";
-include "../templates/body.php";
-include "../components/navbar.php";
+include("../../layouts/templates/htmlhead.php");
+include("../../layouts/templates/body.php");
+include("../../layouts/components/navbar.php");
 
 ?>
 
@@ -14,7 +14,7 @@ include "../components/navbar.php";
 
 <head>
     <title>Product list | hashtech</title>
-    <link rel="stylesheet" type="text/css" href="../assets/styles/products/product-list.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/products/product-list.css">
 </head>
 
 <body>

@@ -4,8 +4,8 @@
 
 <?php
 
-include "../templates/htmlhead.php";
-include "../templates/body.php";
+include("../../layouts/templates/htmlhead.php");
+include("../../layouts/templates/body.php");
 
 // include("connection.php");
 // include('header.php');
@@ -98,13 +98,13 @@ include "../templates/body.php";
 
 <head>
     <title>Register | hashtech</title>
-    <link rel="stylesheet" type="text/css" href="../assets/styles/auth/user-register.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/styles/auth/user-register.css">
 </head>
 
 <body class="text-center">
     <div class="container">
         <form class="form-register">
-            <a href="../index.php"><img class="mb-4" src="../assets/images/website-logo/hk.png" alt="" width="72" height="72"></a>
+            <a href="../index.php"><img class="mb-4" src="../../assets/images/website-logo/hk.png" alt="" width="72" height="72"></a>
             <br />
             <h1 class="h3 mb-3 font-weight-normal">Register</h1>
             <br />

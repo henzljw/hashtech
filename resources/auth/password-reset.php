@@ -4,8 +4,8 @@
 
 <?php
 
-include "../templates/htmlhead.php";
-include "../templates/body.php";
+include("../../layouts/templates/htmlhead.php");
+include("../../layouts/templates/body.php");
 
 ?>
 
@@ -13,13 +13,13 @@ include "../templates/body.php";
 
 <head>
     <title>Password Reset | hashtech</title>
-    <link rel="stylesheet" type="text/css" href="../assets/styles/auth/password-reset.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/styles/auth/password-reset.css">
 </head>
 
 <body class="text-center">
     <div class="container">
         <form class="form-passwordReset">
-            <a href="../index.php"><img class="mb-4" src="../assets/images/website-logo/hk.png" alt="" width="72" height="72"></a>
+            <a href="../index.php"><img class="mb-4" src="../../assets/images/website-logo/hk.png" alt="" width="72" height="72"></a>
             <br />
             <h1 class="h3 mb-3 font-weight-normal">Password Reset</h1>
             <p class="text-center">

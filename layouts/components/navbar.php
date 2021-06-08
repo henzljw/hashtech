@@ -4,8 +4,8 @@
 
 <?php
 
-include "templates/htmlhead.php";
-include "templates/body.php";
+include("layouts/templates/htmlhead.php");
+include("layouts/templates/body.php");
 
 ?>
 
@@ -39,10 +39,10 @@ include "templates/body.php";
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="auth/user-login.php">Login</a>
+                    <a class="nav-link" href="resources/auth/user-login.php">Login</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="auth/user-register.php">Register</a>
+                    <a class="nav-link" href="resources/auth/user-register.php">Register</a>
                 </li>
             </ul>
         </div>

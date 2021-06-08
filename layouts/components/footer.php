@@ -4,8 +4,8 @@
 
 <?php
 
-include "templates/htmlhead.php";
-include "templates/body.php";
+include("layouts/templates/htmlhead.php");
+include("layouts/templates/body.php");
 
 ?>
 

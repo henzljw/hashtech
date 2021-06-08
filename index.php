@@ -4,8 +4,8 @@
 
 <?php
 
-include "templates/htmlhead.php";
-include "components/navbar.php";
+include("layouts/templates/htmlhead.php");
+include("layouts/components/navbar.php");
 // include('connection.php');
 // include('header.php');
 ?>
@@ -141,7 +141,7 @@ include "components/navbar.php";
 
 <?php
 
-include "components/footer.php";
+include("layouts/components/footer.php");
 
 ?>
 
