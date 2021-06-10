@@ -2,7 +2,7 @@
 
 hashtech is an online shopping platform which is selling gadgets such as laptops and smartphone to the user. This project was created for my Final Year Projects when I'm pursuing my Diploma in Information Technology at year 2018. However, this website will have a new revamp so stay tuned for it.
 
-PS: Currently, the website is not in a stable operation so don't try to download the website
+PS: Currently, the website is not in a stable operation including UI side so don't try to download the website and wait until the next patch of new update!
 
 ## System Features
 
