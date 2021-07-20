@@ -1,6 +1,5 @@
 <div align="center">
   <img src="https://user-images.githubusercontent.com/65068770/126372909-85bb5549-cfa1-412c-90c8-c3ce25815348.png" width="100" height="100">
-  <h1>hashtech</h1>
 </div>
 
 hashtech is an online shopping platform which is selling gadgets such as laptops and smartphone to the user. This project was created for my Final Year Projects when I'm pursuing my Diploma in Information Technology at year 2018. However, this website will have a new revamp so stay tuned for it.
